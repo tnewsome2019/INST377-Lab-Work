@@ -4,3 +4,48 @@
 
 <!-- Temporarily unhook your script.js file from your main index file -->
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trinity's Labs for INST377</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1>Trinity INST377 Labs</h1>
+        </header>
+        <div class="container">
+            <div class="left_section box">
+                <h3>Form Inputs</h3>
+                <!--This is for lab 5-->
+                <form action="/api" class="box main_form">
+                    <div>   
+                        <label for="resto"></label>
+                        <input type="text" name="resto" id="resto">
+                        <button type="submit">Submit</button>
+                    </div> 
+                </form>
+            </div>
+            <div class="right_section box">
+                <!--right side-->
+                <!--images box-->
+                <h3>Local Restaurants</h3>
+                <div class="restaurant_list box">
+                    A list of local restaurants 
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer link">
+        TNEWSOME2019 <a href="http://github.com/tnewsome2019" class="a">My Github Account</a>
+    </footer>
+    <script src="./script.js">
+     //   const params = (new URL(document.location)).searchParams;
+      //  const injector = params.get("resto") || 'none submitted';
+      //  document.querySelector('#target').innerText= "Your restaurant name is: ${injector}";
+    </script>
+</body>
+</html>
